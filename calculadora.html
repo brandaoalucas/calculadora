@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="css/calculadora.css">
+
+	
+</head>
+<body>
+
+	<div class="grid-container">
+		<div class="item1" id="visor">
+		</div>
+
+		<div class="item2">
+			<div class="borda"><input type="submit" value="C" class="borda" onclick="adicionar('C')"></div>
+			<div class="borda"><input type="submit" value="/" class="borda" onclick="adicionar('/')"></div>
+			<div class="borda"><input type="submit" value="*" class="borda" onclick="adicionar('*')"></div>
+		</div>
+
+		<div class="item3">
+			<div class="borda"><input type="submit" value="7" class="borda" onclick="adicionar('7')"></div>
+			<div class="borda"><input type="submit" value="8" class="borda" onclick="adicionar('8')"></div>
+			<div class="borda"><input type="submit" value="9" class="borda" onclick="adicionar('9')"></div>
+			<div class="borda"><input type="submit" value="-" class="borda" onclick="adicionar('-')"></div>
+		</div>
+
+		<div class="item4">
+			<div class="borda"><input type="submit" value="4" class="borda" onclick="adicionar('4')"></div>
+			<div class="borda"><input type="submit" value="5" class="borda" onclick="adicionar('5')"></div>
+			<div class="borda"><input type="submit" value="6" class="borda" onclick="adicionar('6')"></div>
+			<div class="borda"><input type="submit" value="7" class="borda" onclick="adicionar('7')"></div>
+		</div>
+		<div class="item5">
+			<div class="borda"><input type="submit" value="1" class="borda" onclick="adicionar('1')"></div>
+			<div class="borda"><input type="submit" value="2" class="borda" onclick="adicionar('2')"></div>
+			<div class="borda"><input type="submit" value="4" class="borda" onclick="adicionar('4')"></div>
+
+		</div>
+
+		<div class="item6">
+			<div class="borda"><input type="submit" value="=" class="borda" onclick="adicionar('=')"></div>			
+		</div>
+
+		<div class="item7">
+			<div class="borda"><input type="submit" value="0" class="borda" onclick="adicionar('0')"></div>
+			<div class="borda"><input type="submit" value="." class="borda" onclick="adicionar('.')"></div>
+		</div>
+	</div>
+
+
+<script src="js/calculadora.js"></script>
+</body>
+</html>
